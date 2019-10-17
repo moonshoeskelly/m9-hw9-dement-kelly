@@ -1,0 +1,12 @@
+#accordion {
+  height: 500px;
+  background-color: grey;
+  width: 95%;
+  margin: auto;
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #accordion {
+    width: 60%;
+  }
+}
