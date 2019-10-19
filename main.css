@@ -8,6 +8,7 @@
     width: 60%;
   }
 }
+
 .accordion-headers {
   height: 60px;
   display: flex;
@@ -18,20 +19,21 @@
   padding: 0 20px;
   justify-content: space-between;
 }
+
 .toggle-indicator {
   font-size: 40px;
 }
 
 .accordion-description {
-  height: 0;
+  max-height: 0;
   overflow: hidden;
   padding: 0px 20px;
   background-color: #f0f0f0;
-  transition: height 1s;
+  transition: max-height 1s;
 }
 
 .active {
-  height: 100px;
+  max-height: 300px;
   padding: 5px 20px;
-  transition: height 1s;
+  transition: max-height 1s;
 }
