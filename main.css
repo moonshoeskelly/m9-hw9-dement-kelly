@@ -25,10 +25,13 @@
 .accordion-description {
   height: 0;
   overflow: hidden;
+  padding: 0px 20px;
   background-color: #f0f0f0;
+  transition: height 1s;
 }
 
-.accordion-open {
+.active {
   height: 100px;
   padding: 5px 20px;
+  transition: height 1s;
 }
